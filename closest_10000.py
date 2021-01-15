@@ -25,3 +25,4 @@ plt.ylabel('Absolute g-band magnitude')
 plt.ylim(30, -5)
 
 plt.show()
+plt.savefig('closest_1000.png')

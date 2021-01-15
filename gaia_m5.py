@@ -13,3 +13,4 @@ plt.plot(229.6375, 2.0811, 'ro') # center x and y and color
 plt.xlabel('ra (deg)')
 plt.ylabel('dec (deg)')
 plt.show()
+plt.savefig('gaia_m5.png')

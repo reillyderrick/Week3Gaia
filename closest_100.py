@@ -12,3 +12,4 @@ plt.xlabel("Right ascension (deg)")
 plt.ylabel("Star count")
 
 plt.show()
+plt.savefig('closest_100.png')
