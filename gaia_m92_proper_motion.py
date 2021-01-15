@@ -15,5 +15,7 @@ ax2.set_xlabel('proper motion (mas/yr)')
 
 ax1.legend()
 ax2.legend()
+
+plt.savefig('gaia_m92_proper_motion.png')
 plt.show()
-plt.savefig('gaia_m92.png')
+

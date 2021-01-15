@@ -12,5 +12,6 @@ plt.plot(259.2833, 43.1358, 'ro') #center coordinates from jupyter
 plt.title('Messier 92 plotted in ra/dec space (degrees)')
 plt.xlabel('ra (deg)')
 plt.ylabel('dec (deg)')
-plt.show()
+
 plt.savefig('gaia_m92_ra_dec.png')
+plt.show()

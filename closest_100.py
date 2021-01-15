@@ -11,5 +11,5 @@ plt.title("Right ascension of closest 100 stars (deg) ")
 plt.xlabel("Right ascension (deg)")
 plt.ylabel("Star count")
 
-plt.show()
 plt.savefig('closest_100.png')
+plt.show()
