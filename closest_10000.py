@@ -13,8 +13,8 @@ plt.scatter(closest['bp_rp'], closest['mag'], s = .1, c = closest['dist'])
 closest = closest.sort_values(by = 'dist')
 closest = closest.dropna()
 
-print(closest['bp_rp'][0:10])
-print(closest['mag'][0:10])
+#print(closest['bp_rp'][0:10])
+#print(closest['mag'][0:10])
 
 plt.scatter(closest['bp_rp'][0:10], closest['mag'][0:10], color = 'r', s = 10, marker='*')
 

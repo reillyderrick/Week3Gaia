@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None) #displays all columns of dataframe
 
 m5 = pd.read_csv('m5_dr2.csv') #dataframe for messier 5
-print(m5)
 
 fig = plt.figure(figsize = [10,10])
 plt.scatter(m5['ra'], m5['dec'])
